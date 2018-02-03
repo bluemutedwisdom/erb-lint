@@ -102,7 +102,8 @@ module ERBLint
 
           single_space_or_newline(
             processed_source,
-            attribute.loc.end_pos...next_attribute.loc.begin_pos)
+            attribute.loc.end_pos...next_attribute.loc.begin_pos
+          )
         end
       end
     end
